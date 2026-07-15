@@ -8,7 +8,7 @@ def is_prime(number):
 
 
 def primes_in_list(numbers):
-    """Returns a list with the prime numbers found in `numbers`."""
+   
     return [number for number in numbers if is_prime(number)]
 
 
