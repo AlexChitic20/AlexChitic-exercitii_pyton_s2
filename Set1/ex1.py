@@ -1,13 +1,12 @@
 def gcd_two(a, b):
-    """Euclid's algorithm for the gcd of two numbers."""
+   
     while b:
         a, b = b, a % b
     return a
 
 
 def gcd_multiple(*numbers):
-    """Returns the greatest common divisor of a variable number of
-    numbers, using a function with variable arguments (*args)."""
+    
     if not numbers:
         raise ValueError("At least one number is required")
 
