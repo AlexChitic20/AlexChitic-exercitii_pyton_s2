@@ -1,5 +1,5 @@
 def is_palindrome(number):
-    """Checks whether a number reads the same forwards and backwards."""
+
     text = str(number)
     return text == text[::-1]
 
