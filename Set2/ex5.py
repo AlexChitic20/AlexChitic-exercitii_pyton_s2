@@ -1,7 +1,5 @@
 def combinations(x, k):
-    """Returns a list of tuples representing all combinations of len(x)
-    elements taken k at a time from list x (implemented manually,
-    without using itertools.combinations)."""
+ 
     if k == 0:
         return [()]
     if k > len(x):
