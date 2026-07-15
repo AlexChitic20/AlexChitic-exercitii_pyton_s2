@@ -1,6 +1,5 @@
 def sorted_main_diagonal_descending(matrix):
-    """Takes a square matrix (list of lists) and returns the elements of
-    the main diagonal, sorted in descending order."""
+   
     diagonal = [matrix[i][i] for i in range(len(matrix))]
     diagonal.sort(reverse=True)
     return diagonal
