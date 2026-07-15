@@ -1,6 +1,5 @@
 def has_special_characters(text):
-    """Checks whether a string contains any of the special (escape)
-    characters: \\r, \\t, \\n, \\a, \\b, \\f, \\v."""
+    
     special_chars = "\r\t\n\a\b\f\v"
     for char in text:
         if char in special_chars:
