@@ -1,9 +1,5 @@
 def build_xml_element(tag, content, **attributes):
-    """Builds and returns a string representing an XML element.
-    Since some XML/HTML attribute names are Python reserved words
-    (e.g. "class"), those keyword arguments are passed with a leading
-    underscore (e.g. _class="my-link") and the underscore is stripped
-    when building the final attribute name."""
+    
     attr_parts = []
     for name, value in attributes.items():
         clean_name = name.lstrip("_")
