@@ -1,6 +1,5 @@
 def camel_to_snake(text):
-    """Converts a string written in UpperCamelCase into snake_case.
-    E.g. "HelloWorld" -> "hello_world"."""
+    
     result = ""
     for index, char in enumerate(text):
         if char.isupper():
