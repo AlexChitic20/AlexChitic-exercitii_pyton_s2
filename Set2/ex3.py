@@ -3,9 +3,7 @@ from itertools import combinations
 
 
 def _line_through(p1, p2):
-    """Returns the (a, b, c) coefficients of the line ax + by + c = 0
-    passing through points p1 and p2, in a normalized (canonical) form
-    so that the same line always produces the same tuple."""
+   
     x1, y1 = p1
     x2, y2 = p2
 
@@ -30,9 +28,7 @@ def _line_through(p1, p2):
 
 
 def unique_lines(points):
-    """Receives a list of points (tuples (x, y)) and returns a list of
-    unique (a, b, c) tuples representing the unique lines determined by
-    those points (ax + by + c = 0)."""
+   
     lines = set()
     for p1, p2 in combinations(points, 2):
         lines.add(_line_through(p1, p2))
