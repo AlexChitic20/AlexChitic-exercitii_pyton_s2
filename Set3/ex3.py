@@ -1,7 +1,5 @@
 def _deep_equal(a, b):
-    """Recursively compares two values. == is only used directly on
-    primitive types (int, float, str); containers (dict, list, tuple,
-    set) are compared element by element / key by key."""
+
     if type(a) != type(b):
         return False
 
