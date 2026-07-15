@@ -1,10 +1,5 @@
 def my_zip(*lists):
-    """Implements the behaviour of zip() manually (without using zip).
-    Receives a variable number of lists and returns a list of tuples:
-    the first tuple contains the first elements of each list, the
-    second tuple the second elements, etc. If the lists don't have the
-    same length, missing elements are replaced with None so that
-    max(len(x) for x in lists) tuples are generated."""
+  
     if not lists:
         return []
 
