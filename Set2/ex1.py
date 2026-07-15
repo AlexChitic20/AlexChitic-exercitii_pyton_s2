@@ -1,5 +1,5 @@
 def fibonacci(n):
-    """Returns a list with the first n numbers of the Fibonacci sequence."""
+   
     sequence = []
     a, b = 0, 1
     for _ in range(n):
@@ -9,10 +9,7 @@ def fibonacci(n):
 
 
 def generalized_fibonacci(num_terms, n):
-    """1* (bonus): generalized Fibonacci-like sequence where each term is
-    the sum of the last `n` terms. The sequence starts with (n-1) zeros
-    followed by a 1 (e.g. n=5 -> starting sequence: 0 0 0 0 1).
-    Returns the first `num_terms` terms."""
+    
     sequence = [0] * (n - 1) + [1]
 
     while len(sequence) < num_terms:
