@@ -1,7 +1,5 @@
 def filter_by_ascii(*strings, x=1, flag=True):
-    """For each string received, builds a list with the characters whose
-    ASCII code is divisible by x (if flag is True) or NOT divisible by x
-    (if flag is False). Returns a tuple with one list per input string."""
+    
     result = []
     for text in strings:
         if flag:
