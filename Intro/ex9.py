@@ -1,5 +1,5 @@
 def is_prime(number):
-    """Checks whether a number is prime."""
+
     if number < 2:
         return False
     for divisor in range(2, int(number ** 0.5) + 1):

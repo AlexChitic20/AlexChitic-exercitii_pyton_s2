@@ -1,5 +1,5 @@
 def calculate(x, y, op):
-    """Applies the operation `op` ("+", "-", "*", "/") on x and y."""
+    
     if op == "+":
         return x + y
     elif op == "-":

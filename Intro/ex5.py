@@ -1,5 +1,4 @@
 def count_digits_of_power(base, exponent):
-    """Returns how many digits `base ** exponent` has."""
     number = base ** exponent
     return len(str(number))
 

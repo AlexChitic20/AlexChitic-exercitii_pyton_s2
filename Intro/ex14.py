@@ -1,7 +1,5 @@
 def sublist_between_extremes(numbers):
-    """Returns the sublist between the position of the smallest element
-    and the position of the largest element (inclusive), regardless of
-    which one comes first in the list."""
+  
     smallest_pos = numbers.index(min(numbers))
     largest_pos = numbers.index(max(numbers))
 

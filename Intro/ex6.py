@@ -1,5 +1,5 @@
 def highest(a, b, c):
-    """Returns the highest of 3 numbers, without using max()."""
+
     result = a
     if b > result:
         result = b
