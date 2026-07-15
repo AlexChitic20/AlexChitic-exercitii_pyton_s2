@@ -2,8 +2,7 @@ import re
 
 
 def evaluate_polynomial(polynomial, value):
-    """Evaluates a polynomial given as a string (e.g. "3x ^ 3 + 5x ^ 2 -
-    2x - 5") for the given numeric value of x."""
+  
     # Remove all spaces to make the pattern simpler to match.
     text = polynomial.replace(" ", "")
 
