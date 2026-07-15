@@ -1,5 +1,5 @@
 def print_elements(items):
-    """Prints every element of a list using a for loop."""
+
     for item in items:
         print(item)
 
