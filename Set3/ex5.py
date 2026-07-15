@@ -1,6 +1,5 @@
 def _middle_is_inside(value, middle):
-    """Checks that `middle` appears inside `value`, strictly between the
-    start and the end (not touching either boundary)."""
+    
     if middle == "":
         return True
 
@@ -14,11 +13,7 @@ def _middle_is_inside(value, middle):
 
 
 def validate_dict(rules, data):
-    """`rules` is a collection of tuples (key, prefix, middle, suffix).
-    A value is valid if it starts with "prefix", contains "middle"
-    strictly inside it (not at the start or end), and ends with
-    "suffix". Returns True if `data` satisfies every rule AND contains
-    no keys other than the ones mentioned in the rules; False otherwise."""
+  
     rules_by_key = {key: (prefix, middle, suffix) for key, prefix, middle, suffix in rules}
 
     # Any key in data that isn't covered by a rule invalidates everything.
