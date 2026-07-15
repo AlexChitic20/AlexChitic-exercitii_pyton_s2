@@ -1,5 +1,5 @@
 def mean_and_geomean_of_extremes(numbers):
-    """Returns the mean and geometric mean of the largest and smallest
+    
     elements of the list."""
     smallest = min(numbers)
     largest = max(numbers)
