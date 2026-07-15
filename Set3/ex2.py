@@ -1,6 +1,5 @@
 def char_frequencies(text):
-    """Returns a dictionary where the keys are the characters found in
-    `text` and the values are how many times each character occurs."""
+   
     frequencies = {}
     for char in text:
         if char in frequencies:
