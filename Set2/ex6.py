@@ -1,8 +1,5 @@
 def elements_in_exactly_x_lists(*lists, x):
-    """Receives a variable number of lists and an integer x. Returns a
-    list with the elements that appear in exactly x of the given lists
-    (an element counts once per list it appears in, no matter how many
-    times it's repeated inside that list)."""
+   
     result = []
     seen = []
     for lst in lists:
