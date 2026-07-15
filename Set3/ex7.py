@@ -7,10 +7,7 @@ FUNCTIONS = {
 
 
 def apply_function(name, *args, **kwargs):
-    """Applies the function named `name` (looked up in the global
-    FUNCTIONS dictionary) over the received arguments. Adding a new
-    function to FUNCTIONS doesn't require any change to this function,
-    since any combination of *args / **kwargs is passed through."""
+    
     return FUNCTIONS[name](*args, **kwargs)
 
 
