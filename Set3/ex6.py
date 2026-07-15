@@ -7,9 +7,7 @@ OPERATORS = {
 
 
 def apply_operator(operator, a, b):
-    """Applies the operation named `operator` (looked up in the global
-    OPERATORS dictionary) over a and b. Adding a new operator to
-    OPERATORS doesn't require any change to this function."""
+   
     return OPERATORS[operator](a, b)
 
 
