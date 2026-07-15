@@ -1,10 +1,7 @@
 import re
 
-
 def count_words(text):
-    """Returns the number of words in a string. Words are separated by
-    spaces and/or punctuation (, ; ? ! .), possibly combined in any way
-    between two words."""
+  
     # Split on one-or-more separators (space or punctuation) in a row.
     tokens = re.split(r"[ ,;?!.]+", text)
     words = [token for token in tokens if token != ""]
