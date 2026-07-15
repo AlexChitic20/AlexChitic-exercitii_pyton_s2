@@ -1,7 +1,5 @@
 def list_operations(a, b):
-    """Receives two lists a and b and returns a tuple with:
-    (a intersected with b, a union b, a - b, b - a),
-    without using Python sets."""
+    
     intersection = []
     for item in a:
         if item in b and item not in intersection:
